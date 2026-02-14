@@ -4,11 +4,11 @@ import pieces.Piece;
 
 public class Move {
 
-    private Player player;
-    private Square from;
-    private Square to;
-    private Piece pieceMoved;
-    private Piece pieceKilled;
+    private final Player player;
+    private final Square from;
+    private final Square to;
+    private final Piece pieceMoved;
+    private final Piece pieceKilled;
 
     public Move(Player player, Square from, Square to) {
         this.player = player;

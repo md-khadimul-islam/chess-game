@@ -4,7 +4,7 @@ import enums.Color;
 
 public class Player {
 
-    private Color color;
+    private final Color color;
 
     public Player(Color color) {
         this.color = color;

@@ -8,12 +8,12 @@ import pieces.Piece;
 
 public class Game {
 
-    private Board board;
-    private Player whitePlayer;
-    private Player blackPlayer;
+    private final Board board;
+    private final Player whitePlayer;
+    private final Player blackPlayer;
     private Player currentPlayer;
-    private GameStatus status;
-    private List<Move> movesPlayed;
+    private final GameStatus status;
+    private final List<Move> movesPlayed;
 
     public Game() {
         board = new Board();
